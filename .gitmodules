@@ -1,3 +1,9 @@
 [submodule "tracking3d"]
 	path = tracking3d
 	url = https://github.com/Ruthrash/tracking3d
+[submodule "darknet_ros"]
+	path = darknet_ros
+	url = https://github.com/Ruthrash/darknet_ros
+[submodule "ros_openpose"]
+	path = ros_openpose
+	url = https://github.com/Ruthrash/ros_openpose
