@@ -7,3 +7,9 @@
 [submodule "ros_openpose"]
 	path = ros_openpose
 	url = https://github.com/Ruthrash/ros_openpose
+[submodule "robocup_msgs"]
+	path = robocup_msgs
+	url = https://github.com/jacques-saraydaryan/robocup_msgs
+[submodule "ros_face_recognition"]
+	path = ros_face_recognition
+	url = https://github.com/Ruthrash/ros_face_recognition
