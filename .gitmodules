@@ -1,0 +1,3 @@
+[submodule "tracking3d"]
+	path = tracking3d
+	url = https://github.com/Ruthrash/tracking3d
