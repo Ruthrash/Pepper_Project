@@ -6,6 +6,7 @@ Contains all software packages used for 3D tracking algorithms tested out on the
 - Openpose
 - CUDA(to use GPU)
 - Eigen
+- Gazebo9(for simulation)
 
 
 ## To do 
