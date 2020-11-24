@@ -1,0 +1,35 @@
+PeopleFaceIdentificationSimple:
+  face_folder: '/home/iatsl/iatsl_ws/src/Pepper_Project/ros_face_recognition/data/labeled_people'
+  face_folder_auto: '/home/iatsl/iatsl_ws/src/Pepper_Project/ros_face_recognition/data/auto_labeled_people'
+  imgtest_folder: '/home/iatsl/iatsl_ws/src/Pepper_Project/ros_face_recognition/data/img_tests'
+  face_detection_mode: 2 #0 cascade Haard, 1:HOG?, 2:cnn_module
+  continuous_learn: True
+  activate_detection: True
+  only_detect_faces: False
+  learn_timeout: 5
+  user_cnn_module: True
+  topic_img: '/usb_cam/image_raw'
+  #topic_img: '/pepper_robot/camera/ir/image_raw'
+  #topic_img: '/camera/rgb/image_rect_color'
+  #topic_img: '/pepper_robot/camera/front/camera/image_raw'
+  topic_face_img: '/face_detection/face_image'
+  topic_face_box: '/robocup/get/entity2D_evidence'
+  topic_all_faces_box: '/face_detection/all_faces_msg'
+  topic_all_faces_img: '/face_detection/all_faces_image'
+  publish_img: True
+  config_folder: '/home/iatsl/iatsl_ws/src/Pepper_Project/ros_face_recognition/config'
+
+
+
+PeopleFaceIdentification:
+  face_folder: '/home/ruthz/catkin_ws/src/ros_face_recognition/ros_face_recognition/data/labeled_people'
+  face_folder_auto: '/home/ruthz/catkin_ws/src/ros_face_recognition/ros_face_recognition/data/auto_labeled_people'
+  user_cnn_module: True
+  continuous_learn: True
+  activate_detection: True
+  learn_timeout: 5
+  #topic_img: '/usb_cam/image_raw'
+  #topic_img: '/pepper_robot/camera/front/camera/image_raw'
+  topic_face_img: '/face_detection/face_image'
+  topic_face_box: '/face_detection/face_msg'
+  publish_img: True
