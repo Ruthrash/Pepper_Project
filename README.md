@@ -6,10 +6,11 @@ Contains all software packages used for 3D tracking algorithms tested out on the
 - Openpose
 - CUDA(to use GPU)
 - Eigen
+- Python face-recognition 1.3.0
 
 
 ## To do 
 
 ## References 
 
-##License
+## License
