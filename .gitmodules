@@ -13,12 +13,6 @@
 [submodule "ros_face_recognition"]
 	path = ros_face_recognition
 	url = https://github.com/Ruthrash/ros_face_recognition
-[submodule "tracking_3d_ekf"]
-	path = tracking_3d_ekf
-	url = https://github.com/Ruthrash/tracking_3d_ekf
 [submodule "openpose"]
 	path = openpose
 	url = https://github.com/Ruthrash/openpose
-[submodule "tracking_3d_pose_pf"]
-	path = tracking_3d_pose_pf
-	url = https://github.com/Ruthrash/tracking_3d_pose_pf
