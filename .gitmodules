@@ -16,3 +16,9 @@
 [submodule "openpose"]
 	path = openpose
 	url = https://github.com/Ruthrash/openpose
+[submodule "tracking_3d_pose_pf"]
+	path = tracking_3d_pose_pf
+	url = https://github.com/Ruthrash/tracking_3d_pose_pf
+[submodule "tracking_3d_ekf"]
+	path = tracking_3d_ekf
+	url = https://github.com/Ruthrash/tracking_3d_ekf

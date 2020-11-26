@@ -1,7 +1,7 @@
 PeopleFaceIdentificationSimple:
-  face_folder: '/home/ruthz/catkin_ws/src/ros_face_recognition/data/labeled_people'
-  face_folder_auto: '/home/ruthz/catkin_ws/src/ros_face_recognition/data/auto_labeled_people'
-  imgtest_folder: '/home/ruthz/catkin_ws/src/ros_face_recognition/data/img_tests'
+  face_folder: '/home/iatsl/iatsl_ws/src/Pepper_Project/ros_face_recognition/data/labeled_people'
+  face_folder_auto: '/home/iatsl/iatsl_ws/src/Pepper_Project/ros_face_recognition/data/auto_labeled_people'
+  imgtest_folder: '/home/iatsl/iatsl_ws/src/Pepper_Project/ros_face_recognition/data/img_tests'
   face_detection_mode: 0 #0 cascade Haard, 1:HOG?, 2:cnn_module
   continuous_learn: True
   activate_detection: True
@@ -17,4 +17,4 @@ PeopleFaceIdentificationSimple:
   topic_all_faces_box: '/face_detection/all_faces_msg'
   topic_all_faces_img: '/face_detection/all_faces_image'
   publish_img: True
-  config_folder: '/home/ruthz/catkin_ws/src/ros_face_recognition/config'
+  config_folder: '/home/iatsl/iatsl_ws/src/Pepper_Project/ros_face_recognition/config'
